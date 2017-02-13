@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header {
+    color: #f9fbe7;
+}
+
+.brand-logo {
+    margin-left: 3;
+    vertical-align: 50%;
+}
+
+.titles {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0px;
+}
+
+.maincontent img {
+  width: 16vw;
+  padding: 1vw;
+}
+
+.nav-wrapper img {
+    width: 4vw;
+    height: auto;
+    border-radius: 50%;
+    border: 2px rgb(230, 222, 188) solid;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.txtal {
+  position: relative;
+  bottom: 19px;
+  margin-left: 10px;
+  border-bottom: 1px white solid;
+}
